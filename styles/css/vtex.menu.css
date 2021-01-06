@@ -1,0 +1,26 @@
+:global(.vtex-category-menu-2-x-container) {
+    background-color: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+:global(.vtex-category-menu-2-x-departmentLink) {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-lateral){
+    color:#000000 !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-lateral):hover{
+    color: #1F60F6 !important;
+    font-weight: 700;
+}

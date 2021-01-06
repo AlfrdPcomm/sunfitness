@@ -1,0 +1,413 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "list-context.image-list#beneficios",
+      //"info-card#home",
+      "flex-layout.row#enlaces-categorias",
+      "flex-layout.row#enlaces-categorias2",
+      /*"flex-layout.row#1",*/
+      /*"flex-layout.row#2",*/
+      "video#background",
+      "list-context.image-list#reviews",
+      "newsletter"
+    ]
+  },
+
+  "flex-layout.row#enlaces-categorias":{
+    "children":[
+      "flex-layout.col#bicicletas",
+      "flex-layout.col#caminadoras",
+      "flex-layout.col#multigimnasios"      
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass":"enlaces"
+    }
+  },
+  "flex-layout.col#bicicletas":{
+    "children":[
+      "list-context.image-list#bicimage"
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass":"bicislide"
+    }
+  },"list-context.image-list#bicimage":{
+    "children":[
+      "slider-layout#bicislide"
+    ],
+    "props":{
+      "height": "100%",
+      "images":[
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/bicicletas.jpg",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/bicicletas-m.png",
+          "link":{
+            "url":"https://final1--sunfitnessmx.myvtex.com/bicicletas"
+          }
+        }
+      ]
+    }
+  },  "slider-layout#bicislide": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel"
+    }
+  },    
+  
+  "flex-layout.col#caminadoras":{
+    "children":[
+      "list-context.image-list#camimage"
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass":"camslide"
+    }
+  },"list-context.image-list#camimage":{
+    "children":[
+      "slider-layout#camimage"
+    ],
+    "props":{
+      "height": "100%",
+      "images":[
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/caminadoras.jpg",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/caminadoras-m.png",
+          "link":{
+            "url":"https://final1--sunfitnessmx.myvtex.com/caminadoras"
+          }
+        }
+      ]
+    }
+  },  "slider-layout#camimage": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel"
+    }
+  },
+    
+  
+  "flex-layout.col#multigimnasios":{
+    "children":[
+      "list-context.image-list#multigim"
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass":"multislide"
+    }
+  },"list-context.image-list#multigim":{
+    "children":[
+      "slider-layout#multimage"
+    ],
+    "props":{
+      "height": "100%",
+      "images":[
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/multigimnasio.jpg",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/multigimnasio-m.png",
+          "link":{
+            "url":"https://final1--sunfitnessmx.myvtex.com/multigimnasio"
+          }
+        }
+      ]
+    }
+  },  "slider-layout#multimage": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#enlaces-categorias2":{
+    "children":[
+      "flex-layout.col#elipticas",
+      "flex-layout.col#accesorios"
+    ],"props":{
+      "horizontalAlign":"center",
+      "blockClass":"enlaces2"
+    }
+  },"flex-layout.col#elipticas":{
+    "children":[
+      "list-context.image-list#elipticas"
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass":"elipslide"
+    }
+  },"list-context.image-list#elipticas":{
+    "children":[
+      "slider-layout#elipimage"
+    ],
+    "props":{
+      "images":[
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas.png",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas-m.png",
+          "link":{
+            "url":"https://final1--sunfitnessmx.myvtex.com/accesorios"
+          }
+        }
+      ]
+    }
+  },  "slider-layout#elipimage": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel"
+    }
+  },"flex-layout.col#accesorios":{
+    "children":[
+      "list-context.image-list#accesorios"
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass":"acceslide"
+    }
+  },"list-context.image-list#accesorios":{
+    "children":[
+      "slider-layout#accimage"
+    ],
+    "props":{
+      "images":[
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/accesorios.png",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/accesorios-m.png",
+          "link":{
+            "url":"https://final1--sunfitnessmx.myvtex.com/accesorios"
+          }
+        }
+      ]
+    }
+  },  "slider-layout#accimage": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel"
+    }
+  },
+
+
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 1200,
+      "images": [
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/slider-sunfitness.jpg",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/slider-mobile-sunfitness.png"
+        },
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/slider-sunfitness.jpg",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/slider-mobile-sunfitness.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel"
+    }
+  },
+
+  "list-context.image-list#beneficios": {
+    "children": ["slider-layout#beneficiosimg"],
+    "props": {
+      "height": 1200,
+      "images": [
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/beneficios-sunfitness.jpg",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/beneficios-m-sunfitness.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#beneficiosimg": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel"
+    }
+  },
+
+
+
+
+
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/beneficios-sunfitness.jpg",
+      "mobileImageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/beneficios-m-sunfitness.png",
+      "callToActionMode": "none",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#1": {
+    "children": [
+      "info-card#cat1",
+      "info-card#cat2",
+      "info-card#cat3"
+    ]
+  },
+
+  "info-card#cat1": {
+    "props": {
+      "id": "info-card-categorias-1",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/bicicletas.jpg",
+      "mobileImageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/bicicletas-m.png",
+      "callToActionLink":{ "url": "/bicicletas" },
+      "blockClass": "info-card-categorias-1",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#cat2": {
+    "props": {
+      "id": "info-card-categorias-1",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/caminadoras.jpg",
+      "mobileImageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/caminadoras-m.png",
+      "callToActionUrl": "/caminadoras",
+      "callToActionMode": "none",
+      "blockClass": "info-card-categorias-1",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#cat3": {
+    "props": {
+      "id": "info-card-categorias-1",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/multigimnasio.jpg",
+      "mobileImageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/multigimnasio-m.png",      
+      "callToActionUrl": "/multigimnasio",
+      "callToActionMode": "none",
+      "blockClass": "info-card-categorias-1",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#2": {
+    "children": [
+      "info-card#cat4",
+      "info-card#cat5"
+    ]
+  },
+
+  "info-card#cat4": {
+    "props": {
+      "id": "info-card-categorias-2",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas.png",
+      "mobileImageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas-m.png",
+      
+      "callToActionMode": "none",
+      "blockClass": "info-card-categorias-2",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#cat5": {
+    "props": {
+      "id": "info-card-categorias-2",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/accesorios.png",
+      "mobileImageUrl": "https://sunfitnessmx.vteximg.com.br/arquivos/accesorios-m.png",
+      "callToActionMode": "none",
+      "blockClass": "info-card-categorias-2",
+      "textAlignment": "center"
+    }
+  },
+
+  "video#background": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "controlsType": "custom-vtex",
+      "loop": false,
+      "autoPlay": false,
+      "muted": true,
+      "src": "https://www.youtube.com/watch?v=qIQYoyXuNPQ&ab_channel=EntertainmentSign",
+      "blockClass": "video-background"
+    }
+  },
+
+  "list-context.image-list#reviews": {
+    "children": ["slider-layout#reviews"],
+    "props": {
+      "height": 950,
+      "images": [
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/testimonio-1.png",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/testimonio-m-1.png"
+        },
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/testimonio-1.png",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/testimonio-m-1.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#reviews": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "reviews"
+    }
+  },
+
+  "newsletter": {
+    "props": {
+      "label": "QUIERO RECIBIR NOTICIAS DE SUNFITNESS",
+      "placeholder": "Escribe tu email",
+      "submit": "ENVIAR",
+      "blockClass": "news"
+    }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "tab-layout",
+      "flex-layout.row#description",
+      "shelf.relatedProducts",
+      // "product-reviews",
+      // "product-questions-and-answers",
+      "rich-text#title-productos-relacionados",
+      "shelf#product"
+    ]
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    }
+    // ,"children": ["product-description"]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "producto-contenedor"
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "70%",
+      "rowGap": 0,
+      "blockClass": "imagen-producto"
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"] //Imagen del Producto
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true,
+      "position": "left" 
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "especificaciones-producto"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      // "product-rating-summary",
+      // "flex-layout.row#list-price-savings",
+      "product-identifier.product",
+      "flex-layout.row#selling-price",
+      // "product-installments",
+      // "product-separator",
+      // "product-identifier.product",
+      // "product-images",
+      // "sku-selector",
+      // "product-quantity",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "flex-layout.row#enviogratis",
+      "availability-subscriber",
+      "flex-layout.row#instgratis",
+      "shipping-simulator",
+      "share#default"
+    ]
+  },
+  "flex-layout.row#instgratis":{
+    "children":[
+      "rich-text#instgratis"
+    ],"props":{
+      "blockClass":"Txtinsta"
+    }
+  },"rich-text#instgratis":{
+    "props":{
+      "text": "Tu compra puede incluir envío e instalación Gratis \n \n Ingresa tu código postal para conocer la cobertura del servicio. ¿No estás en el área? Contáctanos en: contacto@sunfitness.mx o 525580947475 para cotizar el costo.",
+      "textPosition":"CENTER",
+      "textAlignment":"CENTER",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.row#enviogratis":{
+    "children":[
+      "rich-text#txtenvio"
+    ],"props":{
+      "blockClass":"TxtEnvio"
+    }
+  },"rich-text#txtenvio":{
+    "props":{
+      "text": "ENVÍO GRATIS A TODA LA REPÚBLICA MEXICANA",
+      "textPosition":"CENTER",
+      "textAlignment":"CENTER",
+      "font": "t-heading-5"
+    }
+  },
+
+  "shipping-simulator": {
+    "props": {
+      "blockClass" : ""
+    }
+  },
+
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "botonComprar1"
+      
+    },
+    "children": ["add-to-cart-button"]
+  },
+  "add-to-cart-button":{
+    "props": {
+      "blockClass": "botonComprar"
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      },
+      "className": "iconos-sociales",
+      "shareLabelClass" : true
+    }
+  },
+
+
+
+  "tab-layout":{
+    "children": [
+      "tab-list",
+      "tab-content"
+    ],"props":{
+      "defaultAcctiveTabId": "desc"
+    }
+  },"tab-list":{
+    "children":[
+      "tab-list.item#desc",
+      "tab-list.item#det",
+      "tab-list.item#term"
+    ]
+  },"tab-list.item#desc":{
+    "props":{
+      "tabId": "desc",
+      "label": "Descripción",
+      "defaultAcctiveTabId": true
+    }
+  },"tab-list.item#det":{
+    "props":{
+      "tabId": "det",
+      "label": "Detalle del producto"
+
+    }
+  },"tab-list.item#term":{
+    "props":{
+      "tabId": "term",
+      "label": "Terminos y Condiciones"
+    }
+  },
+  
+  
+  
+  
+  "tab-content":{
+    "children":[
+      "tab-content.item#desc",
+      "tab-content.item#det",
+      "tab-content.item#term"
+    ]
+  },"tab-content.item#desc":{
+    "children":[
+      "flex-layout.row#desc"
+    ],"props":{
+      "tabId": "desc"
+    }
+  },
+  "flex-layout.row#desc":{
+    "children":[
+      "product-description#desc-producto" //Componentre de descripcion del producto
+    ]
+  },
+
+  "product-description#desc-producto":{
+    "props":{
+      "title" : " "
+    }
+  },
+
+  "tab-content.item#det":{
+    "children":[
+      "flex-layout.row#titdet",
+      "flex-layout.row#contdet"
+    ],"props":{
+      "tabId": "det"
+    }
+  },
+
+  
+
+  "tab-content.item#term":{
+    "children":[
+      "rich-text#term"
+    ],"props":{
+      "tabId": "term"
+    }
+  },
+
+  "rich-text#term":{
+    "props":{
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "font": "t-heading-7",
+      "blockClass": "terminos"
+    }
+  },
+
+  "flex-layout.row#titdet":{
+    "children":[
+      "rich-text#titdet"
+    ]
+  },
+  "rich-text#titdet":{
+    "props":{
+      // "text": "Especificaciones Técnicas",
+      "text": "",
+      "font": "t-heading-3"
+    }
+  },
+  "flex-layout.row#contdet":{
+    "children":[
+      "product-specification-group"
+      // "product-specifications#product" //Componentre de Productos detalles
+    ]
+  },
+
+  "product-specification-group": {
+    "children": ["product-specification-text#group", "product-specification"]
+  },
+  "product-specification": {
+    "children": [
+      "product-specification-text#specification",
+      "product-specification-values"
+    ]
+  },
+  "product-specification-values": {
+    "children": ["product-specification-text#value"]
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  },
+
+
+
+
+  "rich-text#title-productos-relacionados": {
+    "props": {
+      "text": "TAMBIÉN TE PUEDE  **INTERESAR**",
+      "blockClass": "titulo-productos-relacionados",
+      "textAlignment": "CENTER",
+     "textPosition": "CENTER"
+      
+    }
+  },
+
+  "shelf#product":{
+    "blocks":[
+      "product-summary.shelf#listCard"
+
+    ], "props":{
+      "orderBy": "OrderByTopSaleDESC",
+      "productList":{
+        "maxItems": 10,
+        "itemsPerPage": 3,
+        "miniItemsPerPage": 1,
+        "scroll": "BY_ITEM",
+        "arrows": true,
+        "showTitle" : false,    
+        "titleText": null
+      }
+    }
+  }
+
+  //,
+
+  // "tab-content#home": {
+  //   "children": [
+  //     "tab-content.item#home1",
+  //     "tab-content.item#home2"]
+  // }
+}
+
+

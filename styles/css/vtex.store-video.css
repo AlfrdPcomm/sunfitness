@@ -1,0 +1,13 @@
+:global(.vtex-store-video-1-x-videoContainer--video-background) {
+    margin: 60px 0;
+}
+
+:global(.vtex-store-video-1-x-videoContainer--video-background) {
+    height: 800px;
+}
+
+@media only screen and (max-width: 600px){
+    :global(.vtex-store-video-1-x-videoContainer--video-background){
+        height: 350px;
+    }
+}

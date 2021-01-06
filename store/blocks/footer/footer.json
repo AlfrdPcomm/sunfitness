@@ -1,0 +1,430 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop", 
+      "flex-layout.row#footer-sn",
+      "flex-layout.row#footer-tmp",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Atencion",
+      "vtex.menu@2.x:menu#Empresa",
+      "vtex.menu@2.x:menu#Preguntas",
+      "vtex.menu@2.x:menu#Privacidad",
+      "vtex.menu@2.x:menu#Garantia"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["rich-text#Siguenos"],
+    "props": {
+      "blockClass": "tituloSiguenos"
+    }
+  },
+
+  "rich-text#Siguenos": {
+    "props": {
+      "textAlignment": "Left",
+      "textPosition": "Left",
+      "blockClass": "siguenos",
+      "textColor": "base",
+      "text": "**Síguenos**"
+    }
+  },
+  "flex-layout.row#footer-sn":{
+    "children":[
+      "flex-layout.col#facebook",
+      "flex-layout.col#imgfacebook",
+      "flex-layout.col#youtube",
+      "flex-layout.col#imgyoutube",
+      "flex-layout.col#instagram",
+      "flex-layout.col#imginstagram",
+      "flex-layout.col#twitter",
+      "flex-layout.col#imgtwitter"
+    ],"props":{
+      "blockClass": "smcontent",
+      "horizontalAlign": "center"
+    }    
+  },
+  "flex-layout.col#facebook":{
+      "children":[
+        "rich-text#face"
+      ],"props":{
+      "horizontalAlign": "center"
+      }      
+  },"rich-text#face":{
+        "props":{
+          "text": "Nuestras fotos en **Facebook**",
+          "textAlignment":"CENTER",       
+          "blockClass":"smtext"
+        }        
+  },"flex-layout.col#imgfacebook":{
+          "children":[
+            "image#fb"
+          ],"props":{
+            "verticalAlign":"middle"
+          }
+        },"image#fb":{
+        "props":{
+          "src": "https://sunfitnessmx.myvtex.com/arquivos/facebook.png",
+          "link": "https://www.facebook.com/sunfitnessmx"
+        }
+      },"flex-layout.col#instagram":{
+      "children":[
+        "rich-text#insta"
+      ],"props":{
+        "horizontalAlign": "center"
+        }        
+      },"rich-text#insta":{
+        "props":{
+          "text": "Nuestras fotos en **Instagram**",
+          "textAlignment":"CENTER",
+          "blockClass":"smtext"
+        }  
+      },"flex-layout.col#imginstagram":{
+        "children":[
+          "image#ig"
+        ],"props":{
+          "verticalAlign":"middle"
+        }
+      },"image#ig":{
+        "props":{
+          "src": "https://sunfitnessmx.myvtex.com/arquivos/instagram.png",
+          "link": "https://www.instagram.com/sunfitness_mx/"
+        }
+      },"flex-layout.col#twitter":{
+        "children":[
+          "rich-text#twit"
+        ],"props":{
+          "horizontalAlign": "center"
+          }  
+        
+        },"rich-text#twit":{
+          "props":{
+            "text": "Nuestras noticias en **Twitter**",
+            "blockClass":"smtext",
+            "textAlignment":"CENTER"
+          }  
+        },"flex-layout.col#imgtwitter":{
+          "children":[
+            "image#tw"
+          ],"props":{
+            "verticalAlign":"middle"
+          }
+        },"image#tw":{
+          "props":{
+            "src": "https://sunfitnessmx.myvtex.com/arquivos/twitter.png",
+            "link": "https://twitter.com/SunfitnessMx"
+          }
+        },"flex-layout.col#youtube":{
+          "children":[
+            "rich-text#you"
+          ],"props":{
+            "horizontalAlign": "center"
+            }  
+          
+          },"rich-text#you":{
+            "props":{
+              "text": "Nuestros videos en **YouTube**",
+              "blockClass":"smtext",
+              "textAlignment":"CENTER"
+            }  
+          },"flex-layout.col#imgyoutube":{
+            "children":[
+              "image#yt"
+            ],"props":{
+              "verticalAlign":"middle"
+            }
+          },"image#yt":{
+            "props":{
+              "src": "https://sunfitnessmx.myvtex.com/arquivos/youtube.png",
+              "link": "https://www.youtube.com/channel/UC4wOYjDsJqfxPfMuh3oibiA"
+            }
+          },
+  "flex-layout.row#footer-tmp":{
+    "children":[      
+      "rich-text#titmp"
+    ],"props":{
+      "blockClass": "tituloSiguenos"
+    }
+  },"rich-text#titmp":{
+    "props":{
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "blockClass": "siguenos",
+        "textColor": "base",
+        "text": "**Métodos de Pago**"
+    }
+  },
+  
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "flex-layout.col#metodos",
+      "flex-layout.col#powered"
+    ],"props": {
+      "blockClass": "smcontent"      
+    }
+  },
+  
+  "flex-layout.col#metodos":{
+    "children":[
+      "flex-layout.row#mpago"
+    ],"props":{
+      "blockClass":"alineacion"
+    }
+  },"flex-layout.row#mpago":{
+    "children":[
+      "flex-layout.col#visa",
+      "flex-layout.col#payp",
+      "flex-layout.col#amex",
+      "flex-layout.col#masca"
+    ],"props":{
+      "horizontalAlign":"center"
+    } 
+  },"flex-layout.col#visa":{
+    "children":[
+      "image#visa"
+    ],"props":{
+      "horizontalAlign":"left",
+      "width": "10%",
+      "verticalAlign":"middle"
+    }  
+  },"image#visa":{
+    "props":{
+      
+      "src":"https://sunfitnessmx.myvtex.com/arquivos/visa-logo.png"
+    }
+  },"flex-layout.col#payp":{
+    "children":[      
+      "image#paypal"
+    ],"props":{
+      "horizontalAlign":"center",
+      "width": "10%",
+      "verticalAlign":"middle"
+    }   
+  },"image#paypal":{
+    "props":{
+      "src":"https://sunfitnessmx.myvtex.com/arquivos/paypal.png"
+    }
+  },"flex-layout.col#masca":{
+    "children":[    
+      "image#mascar"
+    ] ,"props":{
+      "horizontalAlign":"left",
+      "widt": "60%",
+      "verticalAlign":"middle"
+    }  
+  },"image#mascar":{
+    "props":{
+      "src":"https://sunfitnessmx.myvtex.com/arquivos/mastercard-logo.png"
+    }    
+  },"flex-layout.col#amex":{
+    "children":[
+      "image#ae"
+    ],"props":{
+      "horizontalAlign":"left",
+      "width": "10%",
+      "verticalAlign":"middle"
+    }
+  },"image#ae":{
+      "props":{
+        "src":"https://sunfitnessmx.myvtex.com/arquivos/amex.png"
+      }
+  },
+
+  "flex-layout.col#powered":{
+    "children":[
+      "flex-layout.row#powby"
+    ]
+  },"flex-layout.row#powby":{
+    "children":[
+      "flex-layout.col#pbpuco",
+      "flex-layout.col#pbvtex"
+    ],"props":{
+      "horizontalAlign":"center"
+    } 
+  },"flex-layout.col#pbpuco":{
+    "children":[
+      "image#pbpc"
+    ],"props":{
+      "horizontalAlign":"right",
+      "width":"85%"
+    } 
+  },"image#pbpc":{
+    "props":{
+      "src":"https://sunfitnessmx.myvtex.com/arquivos/pbpc.png"
+    }
+  },"flex-layout.col#pbvtex":{
+    "children":[
+      "image#pbvx"
+    ],"props":{
+      "horizontalAlign":"right",
+      "width":"15%"
+    } 
+  },"image#pbvx":{
+    "props":{
+      "src":"https://sunfitnessmx.myvtex.com/arquivos/pbv.png"
+    }
+  },
+
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#3-footer-mobile"
+    ]
+  },
+
+
+"flex-layout.row#3-footer-mobile":{
+  "children":[   
+    "flex-layout.col#social",
+    "slider-layout#social",
+    "rich-text#pmethod",
+    "slider-layout#pmethod",
+    "slider-layout#poweredby"
+  ]
+  
+  },"flex-layout.col#social":{
+    "children":[
+      "rich-text#social"
+    ],"props":{
+      "blockClass":"tituloSiguenos"
+    }
+  },
+"rich-text#social":{
+  "props":{
+    "text": "**Síguenos**",
+    "blockClass":"siguenos"
+  }
+},
+"slider-layout#social": {
+  "props": {
+    "blockClass":"sepsli",
+    "itemsPerPage": {
+      "desktop": 0,
+      "tablet": 4,
+      "phone": 4
+    },
+    "infinite": true,
+    "showNavigationArrows": "never",
+    "showPaginationDots": "never"
+  },
+  "children": ["image#1", "image#2", "image#3","image#4"]
+},
+
+"image#1": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/facebook.png",
+    "link":{
+      "url": "https://www.facebook.com/sunfitnessmx"
+    }    
+  }
+},
+"image#2": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/youtube.png",
+    "link":{
+      "url": "https://www.youtube.com/channel/UC4wOYjDsJqfxPfMuh3oibiA"
+    }    
+  }
+},
+"image#3": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/instagram.png",
+    "link":{
+      "url": "https://www.instagram.com/sunfitness_mx/"
+    }    
+  }
+},"image#4": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/twitter.png",
+    "link":{
+      "url": "https://twitter.com/SunfitnessMx"
+    }    
+  }
+},"rich-text#pmethod":{
+  "props":{
+    "text": "**Métodos de Pago**",
+    "blockClass":"siguenos"
+  }
+},"slider-layout#pmethod": {
+  "props": {
+    "blockClass":"sepsli",
+    "itemsPerPage": {
+      "desktop": 0,
+      "tablet": 4,
+      "phone": 4
+    },
+    "infinite": true,
+    "showNavigationArrows": "never",
+    "showPaginationDots": "never"
+  },
+  "children": ["image#paymethod1", "image#paymethod2", "image#paymethod3","image#paymethod4"]
+},
+
+"image#paymethod1": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/visa-logo.png"
+  }
+},
+"image#paymethod2": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/paypal.png"
+  }
+},
+"image#paymethod3": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/mastercard-logo.png"
+  }
+},"image#paymethod4": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/amex.png"
+  }
+},
+
+"slider-layout#poweredby": {
+  "props": {
+    "blockClass":"pow",
+    "itemsPerPage": {
+      "desktop": 0,
+      "tablet": 2,
+      "phone": 2
+    },
+    "infinite": true,
+    "showNavigationArrows": "never",
+    "showPaginationDots": "never"
+  },
+  "children": ["image#poby1", "image#poby2"]
+},
+
+"image#poby1": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/pbpc.png"
+  }
+},
+"image#poby2": {
+  "props": {
+    "src": "https://sunfitnessmx.myvtex.com/arquivos/pbv.png"
+  }
+},
+
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  }
+}

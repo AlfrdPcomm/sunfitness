@@ -1,0 +1,11 @@
+.expandIcon {
+  color: #727273;
+}
+
+:global(.vtex-login-2-x-profileIcon){
+  color: #ffffff;
+}
+
+:global(.vtex-minicart-2-x-cartIcon){
+  color: #ffffff;
+}

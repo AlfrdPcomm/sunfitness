@@ -1,0 +1,497 @@
+{
+  "vtex.menu@2.x:menu#Garantia":{
+    "props":{
+      "orientation":"vertical",
+      "blockClass":"footer-space"
+    },
+    "children":[
+      "menu-item#titgar",
+      "menu-item#envios",
+      "menu-item#garantias"
+    ]
+  },"menu-item#titgar":{
+      "props":{
+        "id": "garantias1",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,        
+        "text": "Envíos y Garantías",
+        "blockClass": "titfoo"
+      }
+  }, "menu-item#envios":{
+    "props":{
+      "id": "garantias2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantias",
+        "noFollow": false,
+        "tagTitle": "Envíos",
+        "text": "Envíos"
+      }
+    }
+  },
+  "menu-item#garantias":{
+    "props":{
+      "id": "garantias3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/garantias",
+        "noFollow": false,
+        "tagTitle": "Garantías",
+        "text": "Garantías"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#Atencion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-space"
+    },
+    "children": [
+      "menu-item#TituloAtencion",
+      "menu-item#Calle",
+      "menu-item#Colonia",
+      "menu-item#CodigoPostal"
+    ]
+  },
+  "menu-item#TituloAtencion": {
+    "props": {
+      "id": "menu-item-news",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "tagTitle": "Atencion",
+      "text": "Atención a Clientes",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false        
+      },
+      "blockClass":"titfoo"
+    }
+  },
+  "menu-item#Calle": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "BlackFriday",
+        "text": "Av. Washington No. 321"
+      }
+    }
+  },
+  "menu-item#Colonia": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "Col. Jardines, Gdl, México"
+      }
+    }
+  },
+  "menu-item#CodigoPostal": {
+    "props": {
+      "id": "menu-item-personalization",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "CP 54321"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#Empresa": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#EmpresaTitulo",
+      "menu-item#Nosotros"
+    ]
+  },
+
+  "menu-item#EmpresaTitulo": {
+    "props": {
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "tagTitle": "Empresa",
+      "text": "Empresa",
+      "blockClass":"titfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "/empresa",
+        "noFollow": true        
+      }
+    }
+  },
+
+  "menu-item#Nosotros": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nosotros",
+        "noFollow": true,
+        "tagTitle": "Nosotros",
+        "text": "Nosotros"
+      }
+    }
+  },
+
+  "menu-item#Noticias": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/tvs",
+        "noFollow": true,
+        "tagTitle": "TVs",
+        "text": "Noticias"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#Preguntas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#PreguntasTitulo",
+      "menu-item#Rastreo",
+      "menu-item#Tiempo"
+    ]
+  },
+
+  "menu-item#PreguntasTitulo": {
+    "props": {
+      "id": "menu-item-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "tagTitle": "Preguntas Frecuentes",
+      "text": "Preguntas Frecuentes",
+      "blockClass":"titfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true        
+      }
+    }
+  },
+
+  "menu-item#Rastreo": {
+    "props": {
+      "id": "menu-item-backpacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "¿Cómo rastreo mi pedido?",
+        "text": "¿Cómo rastreo mi pedido?"
+      }
+    }
+  },
+
+  "menu-item#Tiempo": {
+    "props": {
+      "id": "menu-item-necessaire",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "faq",
+        "noFollow": true,
+        "tagTitle": "¿Cuánto tarda en llegar un pedido?",
+        "text": "¿Cuánto tarda en llegar un pedido?"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#Privacidad": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#PrivacidadTitulo",
+      "menu-item#PoliticaPrivacidad",
+      "menu-item#Terminos",
+      "menu-item#Legales"
+    ]
+  },
+
+  "menu-item#PrivacidadTitulo": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "tagTitle": "Privacidad",
+      "text": "Privacidad",
+      "blockClass":"titfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true        
+      }
+    }
+  },
+
+  "menu-item#PoliticaPrivacidad": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Políticas de Privacidad",
+        "text": "Políticas de Privacidad"
+      }
+    }
+  },
+
+  "menu-item#Terminos": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Terminos y Condiciones",
+        "text": "Terminos y Condiciones"
+      }
+    }
+  },
+
+  "menu-item#Legales": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/legales",
+        "noFollow": false,
+        "tagTitle": "Legales",
+        "text": "Legales"
+      }
+    }
+  },
+              
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Atencion-mobil",
+      "menu-item#Empresa-mobil",
+      "menu-item#Preguntas-mobil",
+      "menu-item#Privacidad-mobil",
+      "menu-item#Garantia-mobil"
+    ]
+  },
+  
+
+  "menu-item#Atencion-mobil": {
+    "props": {
+      "id": "atencion-mobil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"titfoo",
+      "text": "Atención",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Atención"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#atencion"]
+  },
+  "vtex.menu@2.x:submenu.accordion#atencion": {
+    "children": ["vtex.menu@2.x:menu#atencion-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#atencion-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Calle",
+      "menu-item#Colonia",
+      "menu-item#CodigoPostal"
+      ]
+  },
+
+  "menu-item#Empresa-mobil": {
+    "props": {
+      "id": "empresa-mobil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "text": "Empresa",
+      "blockClass": "titfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "empresa"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#empresa-mobil"]
+  },
+  "vtex.menu@2.x:submenu.accordion#empresa-mobil": {
+    "children": ["vtex.menu@2.x:menu#empresa-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#empresa-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Nosotros",
+      "menu-item#Noticias"
+      ]
+  }, 
+  
+  "menu-item#Preguntas-mobil": {
+    "props": {
+      "id": "preguntas-mobil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "text": "Preguntas",
+      "blockClass":"titfoo",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Preguntas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#preguntas-mobil"]
+  },
+  "vtex.menu@2.x:submenu.accordion#preguntas-mobil": {
+    "children": ["vtex.menu@2.x:menu#preguntas-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#preguntas-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Rastreo",
+      "menu-item#Tiempo"
+      ]
+  },
+
+  "menu-item#Privacidad-mobil": {
+    "props": {
+      "id": "privacidad-mobil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "titfoo",
+      "text": "Privacidad",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "privacidad"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#privacidad-mobil"]
+  },
+  "vtex.menu@2.x:submenu.accordion#privacidad-mobil": {
+    "children": ["vtex.menu@2.x:menu#privacidad-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#privacidad-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#PoliticaPrivacidad",
+      "menu-item#Terminos",
+      "menu-item#Legales"
+      ]
+  },
+
+  "menu-item#Garantia-mobil": {
+    "props": {
+      "id": "garantia-mobil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "titfoo",
+      "text": "Garantía",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Garantia"        
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#garantia-mobil"]
+  },
+  "vtex.menu@2.x:submenu.accordion#garantia-mobil": {
+    "children": ["vtex.menu@2.x:menu#garantia-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#garantia-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#envios",
+      "menu-item#garantias"
+      ]
+  }
+
+
+
+
+  
+}
