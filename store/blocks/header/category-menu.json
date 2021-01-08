@@ -9,8 +9,11 @@
       "menu-item#multigimnasio-mobile",
       "menu-item#accesorios-mobile",
       "menu-item#bicicletas-mobile"
+      
     ]   
-  },"menu-item#caminadoras-mobile": {
+  },
+  
+  "menu-item#caminadoras-mobile": {
     "props": {
       "blockClass":"menu-lateral",
       "id": "caminadoras",
