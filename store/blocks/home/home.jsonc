@@ -134,6 +134,7 @@
   },
   "flex-layout.row#enlaces-categorias2":{
     "children":[
+      "flex-layout.col#remadoras",
       "flex-layout.col#elipticas",
       "flex-layout.col#accesorios"
     ],"props":{
@@ -152,9 +153,10 @@
       "slider-layout#elipimage"
     ],
     "props":{
+      "height":"100%",
       "images":[
         {
-          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas.png",
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas.jpg",
           "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas-m.png",
           "link":{
             "url":"https://final1--sunfitnessmx.myvtex.com/accesorios"
@@ -163,6 +165,42 @@
       ]
     }
   },  "slider-layout#elipimage": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "carousel"
+    }
+  },
+  
+  
+  "flex-layout.col#remadoras":{
+    "children":[
+      "list-context.image-list#remos"
+    ],"props":{
+      "horizontalAlign": "center",
+      "blockClass":"elipslide"
+    }
+  },"list-context.image-list#remos":{
+    "children":[
+      "slider-layout#remimage"
+    ],
+    "props":{
+      "height":"100%",
+      "images":[
+        {
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/remadora.jpg",
+          "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas-m.png",
+          "link":{
+            "url":"https://final1--sunfitnessmx.myvtex.com/accesorios"
+          }
+        }
+      ]
+    }
+  },  "slider-layout#remimage": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -184,9 +222,10 @@
       "slider-layout#accimage"
     ],
     "props":{
+      "height":"100%",
       "images":[
         {
-          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/accesorios.png",
+          "image": "https://sunfitnessmx.vteximg.com.br/arquivos/accesorios.jpg",
           "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/accesorios-m.png",
           "link":{
             "url":"https://final1--sunfitnessmx.myvtex.com/accesorios"
