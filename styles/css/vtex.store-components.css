@@ -451,17 +451,20 @@
 :global(.vtex-store-components-3-x-shareContainer)
   :global(.vtex-store-components-3-x-shareSocialButton):first-child::before {
   content: url(/arquivos/facebook-icon.png);
+  margin: 10px;
 }
 :global(.vtex-store-components-3-x-shareContainer) 
   :global(.vtex-store-components-3-x-shareSocialButton):not(:first-child)::before {
   content: url(/arquivos/whatsapp-icon.png);
   display: block;
+  margin: 10px;
 }
 
 :global(.vtex-store-components-3-x-shareContainer)
   :global(.vtex-store-components-3-x-shareSocialButton):last-child::before {
   content: url(/arquivos/twitter-icon.png);
   display: block;
+  margin: 10px;
 }
 
 
@@ -477,24 +480,6 @@
   :global(.vtex-store-components-3-x-shareSocialButton):first-child::before {
   display: none;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -891,4 +876,17 @@
 :global(.vtex-rich-text-0-x-paragraph--terminos){
   padding: 3%;
   margin: 0;
+}
+
+:global(.vtex-product-summary-2-x-clearLink)
+  :global(.vtex-product-summary-2-x-element )
+    :global(.vtex-button):disabled{
+      color: #e6e6e6!important;
+      background: #ccc;
+}
+
+:global(.vtex-product-summary-2-x-clearLink) 
+  :global(.vtex-product-summary-2-x-element) 
+    :global(.vtex-button):disabled:hover {
+      background: #ccc;
 }
