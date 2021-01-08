@@ -83,7 +83,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://sunfitnessmx.vteximg.com.br/arquivos/logo-sunfitness.png",
-      "width": "180"
+      "width": "150"
     }
   },
   "header-layout.mobile": {
@@ -92,6 +92,8 @@
   "sticky-layout#1-mobile": {
     "children": ["flex-layout.row#1-mobile"]
   },
+
+
   "flex-layout.row#1-mobile": {
     "children": [
       "flex-layout.col#spacer",
@@ -114,20 +116,19 @@
   "drawer": {
     "children": ["menu#drawer"]
   },
-
   "menu#drawer": {
     "children": [
       "menu-item#caminadoras-mobile",
       "menu-item#elipticas-mobile",
       "menu-item#multigimnasio-mobile",
       "menu-item#accesorios-mobile",
-      "menu-item#bicicletas-mobile"    
+      "menu-item#bicicletas-mobile"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass":"bottom"
     }
-  },
+  }, 
 
   "logo#mobile": {
     "props": {
