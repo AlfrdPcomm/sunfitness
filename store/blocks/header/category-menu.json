@@ -8,9 +8,25 @@
       "menu-item#elipticas-mobile",
       "menu-item#multigimnasio-mobile",
       "menu-item#accesorios-mobile",
-      "menu-item#bicicletas-mobile"
+      "menu-item#bicicletas-mobile",
+      "menu-item#busca-mobile"
       
     ]   
+  },
+  "menu-item#busca-mobile": {
+   "children":[
+     "flex-layout.row#busc"
+   ]
+  },"flex-layout.row#busc":{
+    "children":[
+      "search-bar#smenu"
+    ], "props":{
+      "blockClass":"busamen"
+    }
+  },"search-bar#smenu":{
+    "props":{
+      "blockClass":"smenu"
+    }
   },
   
   "menu-item#caminadoras-mobile": {
