@@ -224,16 +224,6 @@
 }
 
 
-
-
-:global(.vtex-tab-layout-0-x-container)
-:global(.vtex-tab-layout-0-x-listContainer) {
-  /* margin-left: -440px !important; */
-}
-
-
-
-
 :global(.vtex-tab-layout-0-x-container)
 :global(.vtex-tab-layout-0-x-listContainer) 
 :global(.vtex-tab-layout-0-x-listItemActive)
@@ -709,9 +699,7 @@
   background: linear-gradient(90deg, #0FD3F4 0%, #1F60F6 100%);
 }
 
-:global(.vtex-search-result-3-x-caretIcon) {
-  /* color: #979797; */
-}
+
 
 @media only screen and (max-width: 640px) {
   :global(.vtex-product-summary-2-x-container--productCard) {
@@ -885,4 +873,17 @@
   :global(.vtex-product-summary-2-x-element) 
     :global(.vtex-button):disabled:hover {
       background: #ccc;
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--srchlateral){
+  margin-left: 20px;
+}
+
+:global(.vtex-store-components-3-x-searchIcon--srchlateral){
+  color: #1f60f6
+}
+
+:global(.vtex-store-components-3-x-autoCompleteOuterContainer--srchlateral)
+:global(.vtex-input-prefix__group){
+  border-color: #000000;
 }
