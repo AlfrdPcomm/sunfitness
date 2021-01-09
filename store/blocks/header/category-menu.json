@@ -9,26 +9,17 @@
       "menu-item#multigimnasio-mobile",
       "menu-item#accesorios-mobile",
       "menu-item#bicicletas-mobile",
-      "menu-item#busca-mobile"
-      
+      "menu-item#buscar"   
     ]   
-  },
-  "menu-item#busca-mobile": {
-   "children":[
-     "flex-layout.row#busc"
-   ]
-  },"flex-layout.row#busc":{
+  },"menu-item#buscar":{
     "children":[
-      "search-bar#smenu"
-    ], "props":{
-      "blockClass":"busamen"
-    }
-  },"search-bar#smenu":{
+      "search-bar#srch"            
+    ]
+  },"search-bar#srch":{
     "props":{
-      "blockClass":"smenu"
+      "blockClass":"srchlateral"
     }
   },
-  
   "menu-item#caminadoras-mobile": {
     "props": {
       "blockClass":"menu-lateral",
