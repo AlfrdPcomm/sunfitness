@@ -13,7 +13,8 @@
       /*"flex-layout.row#2",*/
       "video#background",
       "list-context.image-list#reviews",
-      "newsletter"
+      "newsletter",
+      "sandbox#chat"
     ]
   },
 
@@ -146,7 +147,7 @@
       "list-context.image-list#elipticas"
     ],"props":{
       "horizontalAlign": "center",
-      "blockClass":"elipslide"
+      "blockClass":"remslide"
     }
   },"list-context.image-list#elipticas":{
     "children":[
@@ -159,7 +160,7 @@
           "image": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas.jpg",
           "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas-m.png",
           "link":{
-            "url":"https://final1--sunfitnessmx.myvtex.com/accesorios"
+            "url":"https://final1--sunfitnessmx.myvtex.com/remadoras"
           }
         }
       ]
@@ -195,7 +196,7 @@
           "image": "https://sunfitnessmx.vteximg.com.br/arquivos/remadora.jpg",
           "mobileImage": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas-m.png",
           "link":{
-            "url":"https://final1--sunfitnessmx.myvtex.com/accesorios"
+            "url":"https://final1--sunfitnessmx.myvtex.com/elipticas"
           }
         }
       ]

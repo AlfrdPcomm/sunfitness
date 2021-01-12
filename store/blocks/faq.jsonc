@@ -71,7 +71,8 @@
   },
   "rich-text#answer1": {
     "props": {
-      "text": "Si. El envío viene incluido en el precio final y se envía a toda la Republica Mexicana."
+      "text": "Si. El envío viene incluido en el precio final y se envía a toda la Republica Mexicana.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -101,7 +102,8 @@
   },
   "rich-text#answer2": {
     "props": {
-      "text": "Si. El envío viene incluido en el precio final y se envía a toda la Republica Mexicana."
+      "text": "Si. El envío viene incluido en el precio final y se envía a toda la Republica Mexicana.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -131,7 +133,8 @@
   },
   "rich-text#answer3": {
     "props": {
-      "text": "El envío se realiza através de paquetería XCF o con nuestras camionetas de Sport Fitness"
+      "text": "El envío se realiza através de paquetería XCF o con nuestras camionetas de Sport Fitness",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -161,7 +164,8 @@
   },
   "rich-text#answer4": {
     "props": {
-      "text": "No tiene costo."
+      "text": "No tiene costo.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -191,7 +195,8 @@
   },
   "rich-text#answer5": {
     "props": {
-      "text": "Entre 5 a 7 días hábiles."
+      "text": "Entre 5 a 7 días hábiles.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -221,7 +226,8 @@
   },
   "rich-text#answer6": {
     "props": {
-      "text": "N/A"
+      "text": "N/A",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -251,7 +257,8 @@
   },
   "rich-text#answer7": {
     "props": {
-      "text": "En la plataforma de XCF o Tresguerra"
+      "text": "En la plataforma de XCF o Tresguerra",
+      "blockClass":"bg-respuesta"
     }
   },
   "disclosure-state-indicator": {
@@ -313,7 +320,8 @@
   },
   "rich-text#answer1-2": {
     "props": {
-      "text": "1 año a partir de la compra."
+      "text": "1 año a partir de la compra.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -343,7 +351,8 @@
   },
   "rich-text#answer2-2": {
     "props": {
-      "text": "Estar dentro del periodo de garantía, proporcionar su número de serie de equipo y Numero de OV."
+      "text": "Estar dentro del periodo de garantía, proporcionar su número de serie de equipo y Numero de OV.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -373,7 +382,8 @@
   },
   "rich-text#answer3-2": {
     "props": {
-      "text": "No contamos con un seguro para las entregas foráneas pero en el caso de que hubiera un robo previo a la entrega SunFitness estaría obligado a reponer el equipo (Nunca nos han robado un equipo al área de entregas)"
+      "text": "No contamos con un seguro para las entregas foráneas pero en el caso de que hubiera un robo previo a la entrega SunFitness estaría obligado a reponer el equipo (Nunca nos han robado un equipo al área de entregas)",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -403,7 +413,8 @@
   },
   "rich-text#answer4-2": {
     "props": {
-      "text": "Llamar al 55 8094 7475 o al 800 LIFE FIT con su número de serie y Numero de Orden de Venta para validar si se encuentra con garantía Válida."
+      "text": "Llamar al 55 8094 7475 o al 800 LIFE FIT con su número de serie y Numero de Orden de Venta para validar si se encuentra con garantía Válida.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -433,7 +444,8 @@
   },
   "rich-text#answer5-2": {
     "props": {
-      "text": "Al 55 8094 7475 o al 800 LIFE FIT"
+      "text": "Al 55 8094 7475 o al 800 LIFE FIT",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -495,7 +507,8 @@
   },
   "rich-text#answer1-3": {
     "props": {
-      "text": "Si, pero si está dentro del centro del pais o zona metropolitana tiene un costo extra."
+      "text": "Si, pero si está dentro del centro del pais o zona metropolitana tiene un costo extra.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -525,7 +538,8 @@
   },
   "rich-text#answer2-3": {
     "props": {
-      "text": "Si. Dependiendo la zona en que se encuentre puede tener un costo extra por instalación."
+      "text": "Si. Dependiendo la zona en que se encuentre puede tener un costo extra por instalación.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -555,7 +569,8 @@
   },
   "rich-text#answer3-3": {
     "props": {
-      "text": "No, pero nuestros equipos son de ensamblado fácil por lo cual puede no necesitar un técnico especializado para su instalación."
+      "text": "No, pero nuestros equipos son de ensamblado fácil por lo cual puede no necesitar un técnico especializado para su instalación.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -585,7 +600,8 @@
   },
   "rich-text#answer4-3": {
     "props": {
-      "text": "Nuestros equipos son de armado fácil, lo cual requiere pocas herrarmientas e incluso vienen incluidas en nuestroso equipos."
+      "text": "Nuestros equipos son de armado fácil, lo cual requiere pocas herrarmientas e incluso vienen incluidas en nuestroso equipos.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -649,7 +665,8 @@
   },
   "rich-text#answer1-4": {
     "props": {
-      "text": "No, este tiene un costo de $1,100 por evento dentro de las distancias que ya hemos comentado"
+      "text": "No, este tiene un costo de $1,100 por evento dentro de las distancias que ya hemos comentado",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -679,7 +696,8 @@
   },
   "rich-text#answer2-4": {
     "props": {
-      "text": "No, como comente en la pregunta anterior el mantenimiento tiene un costo"
+      "text": "No, como comente en la pregunta anterior el mantenimiento tiene un costo",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -709,7 +727,8 @@
   },
   "rich-text#answer3-4": {
     "props": {
-      "text": "$1,100 por evento mas viáticos en caso de no estar en el área de cobertura (50 KM alrededor de cualquiera de nuestros Showrooms)"
+      "text": "$1,100 por evento mas viáticos en caso de no estar en el área de cobertura (50 KM alrededor de cualquiera de nuestros Showrooms)",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -739,7 +758,8 @@
   },
   "rich-text#answer4-4": {
     "props": {
-      "text": "De acuerdo al uso, mínimo 1 vez al año."
+      "text": "De acuerdo al uso, mínimo 1 vez al año.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -769,7 +789,8 @@
   },
   "rich-text#answer5-4": {
     "props": {
-      "text": "No, SunFitness no hace devoluciones de dinero, ni realiza cambios por errores en pedidos."
+      "text": "No, SunFitness no hace devoluciones de dinero, ni realiza cambios por errores en pedidos.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -799,7 +820,8 @@
   },
   "rich-text#answer6-4": {
     "props": {
-      "text": "No, aplica la respuesta de la pregunta previa."
+      "text": "No, aplica la respuesta de la pregunta previa.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -829,7 +851,9 @@
       "disclosure-layout#fourth-5",
       "disclosure-layout#fifth-5",
       "disclosure-layout#sixth-5"
-    ]
+    ],"props":{
+      "blockClass":"fpago"
+    }
   },
   "rich-text#title5": {
     "props": {
@@ -863,7 +887,8 @@
   },
   "rich-text#answer1-5": {
     "props": {
-      "text": "Aceptamos todas las tarjetas bancarias."
+      "text": "Aceptamos todas las tarjetas bancarias.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -893,7 +918,8 @@
   },
   "rich-text#answer2-5": {
     "props": {
-      "text": "No. Por el momento no contamos con meses sin intereses."
+      "text": "No. Por el momento no contamos con meses sin intereses.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -923,7 +949,8 @@
   },
   "rich-text#answer3-5": {
     "props": {
-      "text": "No. Por el momento no contamos con créditos ni prestamos."
+      "text": "No. Por el momento no contamos con créditos ni prestamos.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -953,7 +980,8 @@
   },
   "rich-text#answer4-5": {
     "props": {
-      "text": "No tenemos la opción de pago a crédito."
+      "text": "No tenemos la opción de pago a crédito.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -983,7 +1011,8 @@
   },
   "rich-text#answer5-5": {
     "props": {
-      "text": "Este tema se puede platicar directamente con su asesor de ventas."
+      "text": "Este tema se puede platicar directamente con su asesor de ventas.",
+      "blockClass":"bg-respuesta"
     }
   },
 
@@ -1013,7 +1042,8 @@
   },
   "rich-text#answer6-5": {
     "props": {
-      "text": "CONEKTA le enviará un enlace de pago el cuál para realizar su pago en efectivo en cualqueir sucursal bancaria e incluso en tiendas OXXO."
+      "text": "CONEKTA le enviará un enlace de pago el cuál para realizar su pago en efectivo en cualqueir sucursal bancaria e incluso en tiendas OXXO.",
+      "blockClass":"bg-respuesta"
     }
   },
 

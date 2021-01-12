@@ -4,12 +4,23 @@
   },
   "footer-layout.desktop": {
     "children": [
+      
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop", 
       "flex-layout.row#footer-sn",
       "flex-layout.row#footer-tmp",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-3-desktop",
+      "sandbox#chat"
     ]
+  },
+
+  "sandbox#chat":{
+    "props": {
+      "width": "200px",
+      "height": "60px",
+      "initialContent": "<script src='//code.tidio.co/kbauic7pk4exjirtciofo2qlyvqtsosb.js' async></script>",
+      "allowCookies": true
+    }
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
