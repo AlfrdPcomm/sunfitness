@@ -128,20 +128,14 @@
       "menu-item#buscar" 
     ],
     "props": {
-      "orientation": "vertical"
-      //"blockClass":"bottom"
+      "orientation": "vertical",
+      "blockClass":"bottom"
     }
   }, "flex-layout.col#menlat":{
     "children":[
-      "category-menu#prueba"
+      "vtex.menu@2.x:menu#catmenu",
+      "search-bar"
     ]
-  },"category-menu#prueba":{
-    "props":{
-      "showAllDepartments": true,
-        "showSubcategories": true,
-        "menuDisposition": "left",
-        "departments": []
-    }
   },
 
   "logo#mobile": {
