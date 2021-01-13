@@ -98,15 +98,13 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "flex-layout.col#spacer",
-      "flex-layout.col#catmenlateral",
-      //"drawer",
+      "drawer",
       "flex-layout.col#spacer",
       "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2",      
-      "flex-layout.col#buscador"
+      "minicart.v2"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -116,46 +114,36 @@
 
     }
   },
-  "flex-layout.col#catmenlateral":{
-    "children":[
-      "flex-layout.row#catmenulat"
-    ]
-  },"flex-layout.row#catmenulat":{
-    "children":[
-      "category-menu#lateral"
-    ]
-  },"category-menu#lateral":{
-    "props":{
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "mobileMode": true
-    }
-  },"flex-layout.col#buscador":{
-    "children":[
-      "search-bar"
-    ],"props":{
-      "fullWidth": true
-    }
-  },
-
   "drawer": {
     "children": ["menu#drawer"]
   },
   "menu#drawer": {
     "children": [
-      "menu-item#caminadoras-mobile",
-      "menu-item#elipticas-mobile",
-      "menu-item#multigimnasio-mobile",
-      "menu-item#accesorios-mobile",
-      "menu-item#bicicletas-mobile",
-      "menu-item#buscar" 
+      "menu-item#catmenu"
+      //"menu-item#caminadoras-mobile",
+      //"menu-item#elipticas-mobile",
+      //"menu-item#multigimnasio-mobile",
+      //"menu-item#accesorios-mobile",
+      //"menu-item#bicicletas-mobile",
+      //"menu-item#buscar" 
     ],
     "props": {
       "orientation": "vertical",
       "blockClass":"bottom"
     }
-  }, 
+  }, "menu-item#catmenu":{
+    "children":[
+      "category-menu#cm"
+    ]    
+  },"category-menu#cm":{
+    "props":{
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "mobileMode": true
+    }
+  },
 
   "logo#mobile": {
     "props": {
