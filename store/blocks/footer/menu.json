@@ -149,21 +149,6 @@
     }
   },
 
-  "menu-item#Noticias": {
-    "props": {
-      "id": "menu-item-tvs",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "Noticias"
-      }
-    }
-  },
 
   "vtex.menu@2.x:menu#Preguntas": {
     "props": {
@@ -375,8 +360,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#Nosotros",
-      "menu-item#Noticias"
+      "menu-item#Nosotros"
       ]
   }, 
   
