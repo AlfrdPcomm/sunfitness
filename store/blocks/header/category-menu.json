@@ -3,8 +3,7 @@
     "props":{
       "experimentalOptimizeRendering": true
     },"children":[
-      "category-menu#lateral",
-      "menu-item#buscar"
+      "category-menu#lateral"
     ]
   }, "category-menu#lateral":{
     "props":{
