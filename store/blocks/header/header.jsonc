@@ -133,8 +133,15 @@
     }
   }, "flex-layout.col#menlat":{
     "children":[
-      "vtex.menu@2.x:menu#catmenu"
+      "category-menu#prueba"
     ]
+  },"category-menu#prueba":{
+    "props":{
+      "showAllDepartments": true,
+        "showSubcategories": true,
+        "menuDisposition": "left",
+        "departments": []
+    }
   },
 
   "logo#mobile": {
