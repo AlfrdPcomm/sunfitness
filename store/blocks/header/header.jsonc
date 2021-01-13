@@ -119,6 +119,7 @@
   },
   "menu#drawer": {
     "children": [
+      "menu-item#catmen",
       "menu-item#caminadoras-mobile",
       "menu-item#elipticas-mobile",
       "menu-item#multigimnasio-mobile",
@@ -130,7 +131,19 @@
       "orientation": "vertical",
       "blockClass":"bottom"
     }
-  }, 
+  }, "menu-item#catmen":{
+    "children":[
+      "category-menu#lateral"
+    ]
+  },"category-menu#lateral":{
+    "props":{
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "mobileMode": true
+    }
+  },
 
   "logo#mobile": {
     "props": {
