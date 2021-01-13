@@ -99,13 +99,14 @@
     "children": [
       "flex-layout.col#spacer",
       "flex-layout.col#catmenlateral",
-      "drawer",
+      //"drawer",
       "flex-layout.col#spacer",
       "flex-layout.col#spacer",
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
-      "minicart.v2"
+      "minicart.v2",      
+      "flex-layout.row#buscador"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -117,8 +118,7 @@
   },
   "flex-layout.col#catmenlateral":{
     "children":[
-      "flex-layout.row#catmenulat",
-      "flex-layout.row#buscador"
+      "flex-layout.row#catmenulat"
     ]
   },"flex-layout.row#catmenulat":{
     "children":[
@@ -134,7 +134,9 @@
   },"flex-layout.row#buscador":{
     "children":[
       "search-bar"
-    ]
+    ],"props":{
+      "fullWidth": true
+    }
   },
 
   "drawer": {
