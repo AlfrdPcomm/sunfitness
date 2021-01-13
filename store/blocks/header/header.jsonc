@@ -106,7 +106,7 @@
       "flex-layout.col#spacer",
       "login",
       "minicart.v2",      
-      "flex-layout.row#buscador"
+      "flex-layout.col#buscador"
     ],
     "props": {
       "blockClass": "main-header-mobile",
@@ -131,7 +131,7 @@
       "menuDisposition": "center",
       "mobileMode": true
     }
-  },"flex-layout.row#buscador":{
+  },"flex-layout.col#buscador":{
     "children":[
       "search-bar"
     ],"props":{
