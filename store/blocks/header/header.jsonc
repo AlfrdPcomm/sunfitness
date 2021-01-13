@@ -98,7 +98,8 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "flex-layout.col#spacer",
-      "drawer",
+      //"drawer",
+      "vtex.menu@2.x:menu#catmenu",
       "flex-layout.col#spacer",
       "flex-layout.col#spacer",
       "logo#mobile",
