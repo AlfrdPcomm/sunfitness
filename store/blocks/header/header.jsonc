@@ -133,8 +133,7 @@
     }
   }, "flex-layout.col#menlat":{
     "children":[
-      "vtex.menu@2.x:menu#catmenu",
-      "search-bar"
+      "vtex.menu@2.x:menu#catmenu"
     ]
   },
 
