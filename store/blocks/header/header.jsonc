@@ -98,8 +98,8 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "flex-layout.col#spacer",
+      "flex-layout.col#catmenlateral",
       "drawer",
-      //"category-menu#lateral",
       "flex-layout.col#spacer",
       "flex-layout.col#spacer",
       "logo#mobile",
@@ -115,12 +115,33 @@
 
     }
   },
+  "flex-layout.col#catmenlateral":{
+    "children":[
+      "flex-layout.row#catmenulat",
+      "flex-layout.row#buscador"
+    ]
+  },"flex-layout.row#catmenulat":{
+    "children":[
+      "category-menu#lateral"
+    ]
+  },"category-menu#lateral":{
+    "props":{
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "mobileMode": true
+    }
+  },"flex-layout.row#buscador":{
+    "children":[
+      "search-bar"
+    ]
+  },
+
   "drawer": {
     "children": ["menu#drawer"]
   },
   "menu#drawer": {
     "children": [
-      "menu-item#menlat",
       "menu-item#caminadoras-mobile",
       "menu-item#elipticas-mobile",
       "menu-item#multigimnasio-mobile",
@@ -132,20 +153,7 @@
       "orientation": "vertical",
       "blockClass":"bottom"
     }
-  },"menu-item#menlat":{
-    "children":[
-      "category-menu#lateral"
-    ]
-  },
-  "category-menu#lateral":{
-    "props":{
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "departments": [],
-      "mobileMode": true
-    }
-  },
+  }, 
 
   "logo#mobile": {
     "props": {
