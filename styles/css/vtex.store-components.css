@@ -822,16 +822,6 @@
 
 
 
-
-
-
-@media only screen and (max-width: 1025px){
-  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel){
-      margin-bottom: 80px;
-    }
-}
-
-
 @media only screen and (max-width: 600px){
   :global(.vtex-flex-layout-0-x-flexRow--enlaces){
     padding-top: 10px !important;
