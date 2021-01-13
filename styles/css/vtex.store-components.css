@@ -769,6 +769,12 @@
   background-color: #ffffff !important;
   width: 100% !important;
 }
+
+
+:global(.vtex-flex-layout-0-x-flexRow--faq){
+  margin-bottom: 90px;
+}
+
 /*------Ana------*/
 
 :global(.vtex-store-drawer-0-x-drawerContent){

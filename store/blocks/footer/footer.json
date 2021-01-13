@@ -28,7 +28,7 @@
       "vtex.menu@2.x:menu#Empresa",
       "vtex.menu@2.x:menu#Preguntas",
       "vtex.menu@2.x:menu#Privacidad",
-      "vtex.menu@2.x:menu#Garantia"
+      "vtex.menu@2.x:menu#Envios"
     ],
     "props": {
       "blockClass": "menu-row",

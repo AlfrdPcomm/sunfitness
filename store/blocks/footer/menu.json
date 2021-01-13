@@ -1,13 +1,12 @@
 {
-  "vtex.menu@2.x:menu#Garantia":{
+  "vtex.menu@2.x:menu#Envios":{
     "props":{
       "orientation":"vertical",
       "blockClass":"footer-space"
     },
     "children":[
       "menu-item#titgar",
-      "menu-item#envios",
-      "menu-item#garantias"
+      "menu-item#envios"
     ]
   },"menu-item#titgar":{
       "props":{
@@ -15,7 +14,7 @@
         "type": "custom",
         "iconId": null,
         "highlight": false,        
-        "text": "Envíos y Garantías",
+        "text": "Envíos",
         "blockClass": "titfoo"
       }
   }, "menu-item#envios":{
@@ -26,25 +25,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/garantias",
+        "href": "/envios",
         "noFollow": false,
         "tagTitle": "Envíos",
         "text": "Envíos"
-      }
-    }
-  },
-  "menu-item#garantias":{
-    "props":{
-      "id": "garantias3",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/garantias",
-        "noFollow": false,
-        "tagTitle": "Garantías",
-        "text": "Garantías"
       }
     }
   },
@@ -328,7 +312,7 @@
       "menu-item#Empresa-mobil",
       "menu-item#Preguntas-mobil",
       "menu-item#Privacidad-mobil",
-      "menu-item#Garantia-mobil"
+      "menu-item#Envio-mobil"
     ]
   },
   
@@ -459,19 +443,19 @@
       ]
   },
 
-  "menu-item#Garantia-mobil": {
+  "menu-item#Envio-mobil": {
     "props": {
-      "id": "garantia-mobil",
+      "id": "envio-mobil",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "blockClass": "titfoo",
-      "text": "Garantía",
+      "text": "Envíos",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/envios",
         "noFollow": true,
-        "tagTitle": "Garantia"        
+        "tagTitle": "Envíos"        
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#garantia-mobil"]
@@ -485,8 +469,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#envios",
-      "menu-item#garantias"
+      "menu-item#envios"
       ]
   }
 
