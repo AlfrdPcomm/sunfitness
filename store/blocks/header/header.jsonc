@@ -89,10 +89,6 @@
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile",
-      "flex-layout.row#search-bar"
-    ]
-  },"flex-layout.row#search-bar":{
-    "children":[
       "search-bar"
     ]
   },
