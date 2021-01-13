@@ -119,30 +119,22 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#catmenu"
+      "flex-layout.col#menlat",
       //"menu-item#caminadoras-mobile",
       //"menu-item#elipticas-mobile",
       //"menu-item#multigimnasio-mobile",
       //"menu-item#accesorios-mobile",
       //"menu-item#bicicletas-mobile",
-      //"menu-item#buscar" 
+      "menu-item#buscar" 
     ],
     "props": {
       "orientation": "vertical",
       "blockClass":"bottom"
     }
-  }, "menu-item#catmenu":{
+  }, "flex-layout.col#menlat":{
     "children":[
-      "category-menu#cm"
-    ]    
-  },"category-menu#cm":{
-    "props":{
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "departments": [],
-      "mobileMode": true
-    }
+      "vtex.menu@2.x:menu#catmenu"
+    ]
   },
 
   "logo#mobile": {

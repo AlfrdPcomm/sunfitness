@@ -1,4 +1,19 @@
 {
+  "vtex.menu@2.x:menu#catmenu":{
+    "props":{
+      "experimentalOptimizeRendering": true
+    },"children":[
+      "category-menu#lateral"
+    ]
+  }, "category-menu#lateral":{
+    "props":{
+      "showAllDepartments": true,
+        "showSubcategories": true,
+        "menuDisposition": "left",
+        "mobileMode": true,
+        "departments": []
+    }
+  },
   
   "vtex.menu@2.x:menu#category-menu-mobile":{
     "props":{
