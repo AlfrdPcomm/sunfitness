@@ -128,8 +128,8 @@
       "menu-item#buscar" 
     ],
     "props": {
-      "orientation": "vertical",
-      "blockClass":"bottom"
+      "orientation": "vertical"
+      //"blockClass":"bottom"
     }
   }, "flex-layout.col#menlat":{
     "children":[

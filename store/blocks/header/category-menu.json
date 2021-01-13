@@ -10,7 +10,7 @@
       "showAllDepartments": true,
         "showSubcategories": true,
         "menuDisposition": "left",
-        "mobileMode": true,
+        "mobileMode": false,
         "departments": []
     }
   },
