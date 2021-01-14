@@ -4,10 +4,12 @@
 */
 :global(.vtex-store-video-1-x-videoContainer--video-background) {
     height: 800px;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 600px){
     :global(.vtex-store-video-1-x-videoContainer--video-background){
         height: 350px;
+        display: none;
     }
 }
