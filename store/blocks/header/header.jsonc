@@ -89,12 +89,11 @@
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile",
-      "flex-layout.col#sb",
-      "search-bar"
+      "flex-layout.row#sb"
     ]
-  },"flex-layout.col#sb":{
+  },"flex-layout.row#sb":{
     "children":[
-      "search-bar"
+      "search-bar#srch"
     ]
   },
 
@@ -104,9 +103,9 @@
 
   "flex-layout.row#1-mobile": {
     "children": [
-      "flex-layout.col#spacer",
+      //"flex-layout.col#spacer",
       //"drawer",
-      "vtex.menu@2.x:menu#catmenu",
+      "category-menu#lateral",
       "flex-layout.col#spacer",
       "flex-layout.col#spacer",
       "logo#mobile",
@@ -122,12 +121,23 @@
 
     }
   },
+
+  "category-menu#lateral":{
+    "props":{
+      "showAllDepartments": true,
+        "showSubcategories": true,
+        "menuDisposition": "left",
+        "mobileMode": true,
+        "departments": [],
+        "blockClass":"mlate"
+    }
+  },
+  
   "drawer": {
     "children": ["menu#drawer"]
   },
   "menu#drawer": {
     "children": [
-      "flex-layout.col#menlat",
       //"menu-item#caminadoras-mobile",
       //"menu-item#elipticas-mobile",
       //"menu-item#multigimnasio-mobile",
@@ -139,11 +149,7 @@
       "orientation": "vertical",
       "blockClass":"bottom"
     }
-  }, "flex-layout.col#menlat":{
-    "children":[
-      "vtex.menu@2.x:menu#catmenu"
-    ]
-  },
+  }, 
 
   "logo#mobile": {
     "props": {
