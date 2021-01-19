@@ -9,19 +9,10 @@
       "flex-layout.row#footer-2-desktop", 
       "flex-layout.row#footer-sn",
       "flex-layout.row#footer-tmp",
-      "flex-layout.row#footer-3-desktop",
-      "sandbox#chat"
+      "flex-layout.row#footer-3-desktop"
     ]
   },
 
-  "sandbox#chat":{
-    "props": {
-      "width": "200px",
-      "height": "60px",
-      "initialContent": "<script src='//code.tidio.co/kbauic7pk4exjirtciofo2qlyvqtsosb.js' async></script>",
-      "allowCookies": true
-    }
-  },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "vtex.menu@2.x:menu#Atencion",

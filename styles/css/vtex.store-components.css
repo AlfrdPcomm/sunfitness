@@ -845,6 +845,10 @@
   :global(.vtex-flex-layout-0-x-flexRow--enlaces2){
     padding-top: 0px !important;
   }
+
+  :global(.vtex-search-result-3-x-orderByText){
+    font-size: 15px !important;
+  }
 }
 
 
@@ -949,3 +953,13 @@
 :global(.vtex-category-menu-2-x-sidebarContent) {
   border-bottom: 2px solid  #1f60f6;
 }
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--filterAndProducts){
+  margin-left: 0% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--filterColContainer ){
+    padding-left: 60px !important;
+}
+

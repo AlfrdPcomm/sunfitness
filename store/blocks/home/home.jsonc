@@ -11,12 +11,13 @@
       "flex-layout.row#enlaces-categorias2",
       /*"flex-layout.row#1",*/
       /*"flex-layout.row#2",*/
-      "video#background",
+      "flex-layout.row#video",
+      //"video#background",
       "list-context.image-list#reviews",
-      "newsletter",
-      "sandbox#chat"
+      "newsletter"
     ]
   },
+
 
   "flex-layout.row#enlaces-categorias":{
     "children":[
@@ -401,6 +402,15 @@
     }
   },
 
+  "flex-layout.row#video":{
+    "children":[
+      "video#background"
+    ],
+    "props":{
+      "fullWidth": true,
+      "blockClass":"vprueba"
+    }
+  },
   "video#background": {
     "props": {
       "width": "100%",
@@ -417,6 +427,7 @@
   "list-context.image-list#reviews": {
     "children": ["slider-layout#reviews"],
     "props": {
+      "blockClass": "reviews",
       "height": 950,
       "images": [
         {
@@ -437,8 +448,7 @@
         "tablet": 1,
         "phone": 1
       },
-      "infinite": true,
-      "blockClass": "reviews"
+      "infinite": true
     }
   },
 

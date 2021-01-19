@@ -112,7 +112,7 @@
     },
     "children": [
       "menu-item#EmpresaTitulo",
-      "menu-item#Nosotros"
+      "menu-item#nosotros"
     ]
   },
 
@@ -133,7 +133,7 @@
     }
   },
 
-  "menu-item#Nosotros": {
+  "menu-item#nosotros": {
     "props": {
       "id": "menu-item-videogames",
       "type": "custom",
@@ -360,7 +360,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#Nosotros"
+      "menu-item#nosotros"
       ]
   }, 
   

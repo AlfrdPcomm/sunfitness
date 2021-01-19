@@ -2,9 +2,10 @@
     margin: 60px 0;
 }
 */
-:global(.vtex-store-video-1-x-videoContainer--video-background) {
-    height: 800px;
-    max-width: 100%;
+:global(.vtex-store-video-1-x-videoContainer--video-background),
+:global(.vtex-store-video-1-x-videoElement--video-background) {
+    height: 80vh !important;
+    width: 100% !important;
 }
 
 @media only screen and (max-width: 600px){
