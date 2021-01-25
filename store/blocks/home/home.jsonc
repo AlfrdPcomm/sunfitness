@@ -47,7 +47,7 @@
           "image": "https://sunfitnessmx.vteximg.com.br/arquivos/bicicletas.jpg",
           "mobileImage": "https://sunfitnessmx.vtexassets.com/assets/vtex.file-manager-graphql/images/3c74df09-ee83-4864-8f9b-6aaf69e2e4fd___29c923046a185fa579e6f4ce6f409451.jpg",
           "link":{
-            "url":"https://final1--sunfitnessmx.myvtex.com/bicicletas"
+            "url":"https://sunfitnessmx.myvtex.com/bicicletas"
           }
         }
       ]
@@ -82,7 +82,7 @@
           "image": "https://sunfitnessmx.vteximg.com.br/arquivos/caminadoras.jpg",
           "mobileImage": "https://sunfitnessmx.vtexassets.com/assets/vtex.file-manager-graphql/images/4f496d0e-44f6-49cb-b6d9-326dc0a7237e___f2f554b2c3f28c3d45a3e3c7d1ae5c70.jpg",
           "link":{
-            "url":"https://final1--sunfitnessmx.myvtex.com/caminadoras"
+            "url":"https://sunfitnessmx.myvtex.com/caminadoras"
           }
         }
       ]
@@ -118,7 +118,7 @@
           "image": "https://sunfitnessmx.vteximg.com.br/arquivos/multigimnasio.jpg",
           "mobileImage": "https://sunfitnessmx.vtexassets.com/assets/vtex.file-manager-graphql/images/ba91bf29-872d-4346-bd26-996b9a55eaec___68665127241e6468097e70c0108588cb.jpg",
           "link":{
-            "url":"https://final1--sunfitnessmx.myvtex.com/multigimnasio"
+            "url":"https://sunfitnessmx.myvtex.com/multigimnasio"
           }
         }
       ]
@@ -161,7 +161,7 @@
           "image": "https://sunfitnessmx.vteximg.com.br/arquivos/elipticas.jpg",
           "mobileImage": "https://sunfitnessmx.vtexassets.com/assets/vtex.file-manager-graphql/images/6f4e05d8-a041-4dd2-9735-1b0af3d691d8___82ccf0d0728f9fa67b737c1310fa316e.jpg",
           "link":{
-            "url":"https://final1--sunfitnessmx.myvtex.com/remadoras"
+            "url":"https://sunfitnessmx.myvtex.com/remadoras"
           }
         }
       ]
@@ -197,7 +197,7 @@
           "image": "https://sunfitnessmx.vteximg.com.br/arquivos/remadora.jpg",
           "mobileImage": "https://sunfitnessmx.vtexassets.com/assets/vtex.file-manager-graphql/images/e79852f5-513d-430b-b352-6b160a83b002___c56122ae7b6253ce5888528273cf291d.jpg",
           "link":{
-            "url":"https://final1--sunfitnessmx.myvtex.com/elipticas"
+            "url":"https://sunfitnessmx.myvtex.com/elipticas"
           }
         }
       ]
@@ -230,7 +230,7 @@
           "image": "https://sunfitnessmx.vteximg.com.br/arquivos/accesorios.jpg",
           "mobileImage": "https://sunfitnessmx.vtexassets.com/assets/vtex.file-manager-graphql/images/25d1b47d-80a1-4e99-8d63-75a7079f231d___16f10aa9896712825a0aa3b292bd9b2d.jpg",
           "link":{
-            "url":"https://final1--sunfitnessmx.myvtex.com/accesorios"
+            "url":"https://sunfitnessmx.myvtex.com/accesorios"
           }
         }
       ]
